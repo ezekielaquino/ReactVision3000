@@ -30,6 +30,7 @@ class ImageIndicator extends React.Component {
         <Inner width={width}>
           <Header>
             <h1>Vision3OOO</h1>
+            <p>LazyLoading for the New Millenium</p>
           </Header>
 
           { [...Array(cells).keys()].map(item => {
@@ -83,6 +84,13 @@ const Header = styled('header')`
   h1 {
     font-size: 9px;
     text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+  }
+
+  p {
+    display: inline-block;
+    padding-left: 8px;
     margin: 0;
   }
 `;

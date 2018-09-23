@@ -36,6 +36,8 @@ class App extends Component {
       <main>
         <ImageIndicator length={IMAGES} inView={inView} viewed={viewed} />
 
+        <Github href="https://github.com/ezekielaquino/ReactVision3000">View on Github</Github>
+
         <Flex>
           { [...Array(IMAGES).keys()].map((src, index) => (
             <Wrap
@@ -69,6 +71,26 @@ const Flex = styled('div')`
   padding: 30px;
 `;
 
+const Github = styled('a')`
+  font-family: 'Arial', sans-serif;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  position: fixed;
+  right: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 15px;
+
+  &:hover:after {
+    content: ' – NOW!';
+  }
+`;
 
 const Wrap = styled('div')`
   width: 100vw;
