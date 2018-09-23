@@ -1,0 +1,25 @@
+{
+  "name": "reactvision3000-demo",
+  "homepage": "http://gitname.github.io/ReactVision3000",
+  "version": "0.1.0",
+  "dependencies": {
+    "emotion": "^9.2.8",
+    "gh-pages": "^1.2.0",
+    "intersection-observer": "^0.5.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-anchor-link-smooth-scroll": "^1.0.11",
+    "react-dom": "^16.5.0",
+    "react-emotion": "^9.2.8",
+    "react-scripts": "1.1.5",
+    "vision3000-react": "^0.0.6"
+  },
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

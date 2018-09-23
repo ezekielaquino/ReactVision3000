@@ -1,0 +1,26 @@
+{
+  "name": "vision3000-react",
+  "version": "0.1.0",
+  "repository": "https://github.com/ezekielaquino/ReactVision3000",
+  "author": "Ezekiel Aquino <ezekielaquino@gmail.com>",
+  "description": "LazyLoading for the New Millenium™",
+  "license": "GPL-3.0",
+  "keywords": [
+    "lazyload",
+    "lazy",
+    "load",
+    "intersectionobserver",
+    "observer",
+    "intersection"
+  ],
+  "main": "./ReactVision3000.js",
+  "module": "dist/vision3000-react.m.js",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "vision3000": "^0.0.3"
+  },
+  "scripts": {
+    "build": "microbundle build ReactVision3000.js --jsx React.createElement --output dist --external 'react'"
+  }
+}
