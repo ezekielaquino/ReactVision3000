@@ -1,6 +1,6 @@
 {
   "name": "vision3000-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "https://github.com/ezekielaquino/ReactVision3000",
   "author": "Ezekiel Aquino <ezekielaquino@gmail.com>",
   "description": "LazyLoading for the New Millenium™",
@@ -18,7 +18,7 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
-    "vision3000": "^0.0.3"
+    "vision3000": "^0.1.0"
   },
   "scripts": {
     "build": "microbundle build ReactVision3000.js --jsx React.createElement --output dist --external 'react'"
