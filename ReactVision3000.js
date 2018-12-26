@@ -35,14 +35,12 @@ class VisionImage extends React.Component {
   componentDidMount() {
     const { onIntersect } = this.props;
 
-    window.addEventListener('load', () => {
-      window.VISION3K.onIntersect = onIntersect;
+    window.VISION3K.onIntersect = onIntersect;
 
-      this.setState({ documentLoaded: true }, () => {
-        window.VISION3K.observe(this.elem, {
-          onLoadStart: (elem, img, viewed) => this.onLoadStart(elem, img, viewed),
-          onLoad: (elem, img, viewed) => this.onLoad(elem, img, viewed),
-        });
+    this.setState({ documentLoaded: true }, () => {
+      window.VISION3K.observe(this.elem, {
+        onLoadStart: (elem, img, viewed) => this.onLoadStart(elem, img, viewed),
+        onLoad: (elem, img, viewed) => this.onLoad(elem, img, viewed),
       });
     });
   }

@@ -38,6 +38,7 @@ schedule@^0.5.0:
   dependencies:
     object-assign "^4.1.1"
 
-vision3000@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/vision3000/-/vision3000-0.0.3.tgz#d93c6f29ffe95f2308d6e14fb81511db1d55d4e0"
+vision3000@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vision3000/-/vision3000-0.1.0.tgz#14ce8bb1dcaaa14b8c581a4f5f6d769b208767a2"
+  integrity sha512-s4oG5fnagDJoq5U+8S+pzfi8FpunV8puaeAVhRHHkk0TWzN+IPBTIU7BnZyxmP7YbxrZFFQEZKD7podNOgm8CQ==
